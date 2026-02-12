@@ -9,10 +9,15 @@ Sunt un explorator al tehnologiilor Cloud, pasionat de modul în care Inteligen�
 - **[Cloud AI Learning Hub](https://florinstanilacloudai.github.io/cloud-ai-learning-hub/)** - Un hub centralizat de resurse pentru AWS și AI, construit de la zero folosind asistență AI.
 
 ### 🛠️ Tehnologii și Instrumente
-- **Cloud:** AWS (Ultimate AWS Certified Solutions Architect Associate 2026)
+- **Cloud:** AWS
 - **AI/ML:** Prompt Engineering, LLMs Integration
 - **Web:** HTML5, Tailwind CSS
 - **Tools:** VS Code, Git, GitHub Actions
+### 📊 Statisticile mele de programator
+![Limbajele cele mai folosite](https://github-readme-stats.vercel.app)
+![Statisticile mele GitHub](https://github-readme-stats.vercel.app)
+
+---
 
 ### 📈 Obiective în 2026
 - [ ] Primul job în IT
