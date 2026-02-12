@@ -2,18 +2,54 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
-    <title>Cloud & AI Learning Hub</title>
-    <style>
-        body { font-family: Arial, sans-serif; background-color: #f4f4f9; text-align: center; padding: 50px; }
-        h1 { color: #2c3e50; }
-        .box { background: white; padding: 20px; border-radius: 10px; shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS & AI Learning Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="box">
-        <h1>Centrul de Resurse Cloud & AI - Florin Stănilă</h1>
-        <p>Acest site va fi ghidul tău către o nouă carieră.</p>
-        <button onclick="alert('În curând: Integrare API Inteligență Artificială!')">Apasă aici</button>
-    </div>
+<body class="bg-slate-900 text-white font-sans">
+
+    <!-- Header -->
+    <header class="p-10 text-center bg-gradient-to-r from-orange-500 to-yellow-500">
+        <h1 class="text-4xl font-bold italic">AWS & AI LEARNING HUB 🚀</h1>
+        <p class="mt-2 text-lg opacity-90">Călătoria lui Florin către Cloud Architecture</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-5xl mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+        
+        <!-- AWS Section -->
+        <section class="bg-slate-800 p-6 rounded-xl border-l-4 border-orange-500 shadow-lg">
+            <h2 class="text-2xl font-bold mb-4 text-orange-400">☁️ Calea AWS</h2>
+            <ul class="space-y-3 text-slate-300">
+                <li class="flex items-center">✅ AWS Cloud Practitioner (Fundamente)</li>
+                <li class="flex items-center">⏳ EC2 & S3 (Computing și Stocare)</li>
+                <li class="flex items-center">⏳ IAM & Securitate în Cloud</li>
+                <li class="flex items-center">⏳ Arhitecturi Scalabile</li>
+            </ul>
+            <button class="mt-6 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded transition">
+                Vezi Resurse AWS
+            </button>
+        </section>
+
+        <!-- AI Section -->
+        <section class="bg-slate-800 p-6 rounded-xl border-l-4 border-blue-500 shadow-lg">
+            <h2 class="text-2xl font-bold mb-4 text-blue-400">🤖 Calea AI</h2>
+            <ul class="space-y-3 text-slate-300">
+                <li class="flex items-center">✅ Prompt Engineering</li>
+                <li class="flex items-center">⏳ Python pentru Machine Learning</li>
+                <li class="flex items-center">⏳ AWS Bedrock (Generative AI)</li>
+                <li class="flex items-center">⏳ Integrare API OpenAI</li>
+            </ul>
+            <button class="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition">
+                Explorați AI
+            </button>
+        </section>
+
+    </main>
+
+    <footer class="text-center mt-20 p-6 text-slate-500 border-t border-slate-800">
+        &copy; 2024 Creat de Florin Stănilă - Viitor AWS Solutions Architect
+    </footer>
+
 </body>
 </html>
