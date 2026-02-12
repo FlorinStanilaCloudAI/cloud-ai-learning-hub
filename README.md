@@ -1,17 +1,29 @@
-# Salut, sunt Florin! 👋
+# Salut, sunt Florin Stănilă! 👋
 
-### 🤖 Pasionat de Cloud AI & Automatizări
-Sunt un entuziast al tehnologiei care învață să construiască soluții moderne folosind AI. Acest hub este locul unde îmi documentez călătoria de la zero la expert.
-
-- 🛠️ **Proiect Curent:** [Cloud AI Learning Hub](https://florinstanilacloudai.github.io)
-- 📚 **Ce învăț acum:** HTML, CSS, Git și integrarea modelelor de limbaj (LLMs).
-- 🎯 **Obiectiv:** Să devin specialist în implementarea soluțiilor AI pentru business.
-
-### 🛠️ Tehnologii folosite:
-![HTML5](https://img.shields.io) 
-![CSS3](https://img.shields.io) 
-![Git](https://img.shields.io)
-![VS Code](https://img.shields.io)
+### ☁️ Viitor Cloud Solutions Architect | AI Enthusiast
+Sunt un explorator al tehnologiilor Cloud, pasionat de modul în care Inteligența Artificială poate optimiza arhitecturile moderne.
 
 ---
-📫 **Contact:** [Profilul tău de LinkedIn](www.linkedin.com/in/florin-stănilă-647437297)
+
+### 🚀 Proiectul meu principal
+- **[Cloud AI Learning Hub](https://florinstanilacloudai.github.io)** - Un hub centralizat de resurse pentru AWS și AI, construit de la zero folosind asistență AI.
+
+### 🛠️ Tehnologii și Instrumente
+- **Cloud:** AWS (Ultimate AWS Certified Solutions Architect Associate 2026)
+- **AI/ML:** Prompt Engineering, LLMs Integration
+- **Web:** HTML5, Tailwind CSS
+- **Tools:** VS Code, Git, GitHub Actions
+
+### 📈 Obiective în 2026
+- [ ] Primul job în IT
+- [ ] Implementarea unui chatbot AI în Cloud AI Hub
+- [ ] Extinderea portofoliului cu proiecte practice de automatizare
+
+---
+
+### 📫 Hai să ne conectăm!
+[![LinkedIn](https://img.shields.io)](https://www.linkedin.com)
+[![GitHub](https://img.shields.io)](https://github.com)
+
+---
+*„Tehnologia este doar un instrument. Oamenii sunt cei care aduc magia.”*
