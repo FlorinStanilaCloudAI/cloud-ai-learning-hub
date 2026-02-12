@@ -3,64 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS & AI Learning Hub</title>
+    <title>AWS & AI Learning Hub | Florin Stănilă</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-900 text-white font-sans">
 
     <!-- Header -->
-    <header class="p-10 text-center bg-gradient-to-r from-orange-500 to-yellow-500">
+    <header class="p-10 text-center bg-gradient-to-r from-orange-500 to-yellow-500 shadow-2xl">
         <h1 class="text-4xl font-bold italic">AWS & AI LEARNING HUB 🚀</h1>
-        <p class="mt-2 text-lg opacity-90">Călătoria lui Florin către Cloud Architecture</p>
+        <p class="mt-2 text-lg opacity-90 font-medium">Călătoria lui Florin către Cloud Architecture & AI Implementation</p>
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-5xl mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+    <main class="max-w-5xl mx-auto p-6 mt-10">
         
-        <!-- AWS Section -->
-        <section class="bg-slate-800 p-6 rounded-xl border-l-4 border-orange-500 shadow-lg">
-            <h2 class="text-2xl font-bold mb-4 text-orange-400">☁️ Calea AWS</h2>
-            <ul class="space-y-3 text-slate-300">
-                <li class="flex items-center">✅ AWS Cloud Practitioner (Fundamente)</li>
-                <li class="flex items-center">⏳ EC2 & S3 (Computing și Stocare)</li>
-                <li class="flex items-center">⏳ IAM & Securitate în Cloud</li>
-                <li class="flex items-center">⏳ Arhitecturi Scalabile</li>
-            </ul>
-            <!-- Butoane cu Link-uri Reale AWS -->
-<div class="mt-6 flex flex-col space-y-3">
-    <a href="https://explore.skillbuilder.aws" 
-       target="_blank" 
-       class="bg-orange-500 hover:bg-orange-600 text-white text-center font-bold py-2 px-4 rounded transition">
-       🚀 Curs Esențial AWS (Gratuit)
-    </a>
-    
-    <a href="https://aws.amazon.com" 
-       target="_blank" 
-       class="border border-orange-500 text-orange-500 text-center font-bold py-2 px-4 rounded hover:bg-orange-500 hover:text-white transition">
-       🛠️ AWS Educate (Laboratoare)
-    </a>
-</div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- AWS Section -->
+            <section class="bg-slate-800 p-6 rounded-xl border-l-4 border-orange-500 shadow-lg flex flex-col justify-between">
+                <div>
+                    <h2 class="text-2xl font-bold mb-4 text-orange-400">☁️ Calea AWS</h2>
+                    <ul class="space-y-3 text-slate-300">
+                        <li class="flex items-center">✅ AWS Cloud Practitioner (Fundamente)</li>
+                        <li class="flex items-center">⏳ EC2 & S3 (Computing și Stocare)</li>
+                        <li class="flex items-center">⏳ IAM & Securitate în Cloud</li>
+                        <li class="flex items-center">⏳ Arhitecturi Scalabile</li>
+                    </ul>
+                </div>
+                <div class="mt-6 flex flex-col space-y-3">
+                    <a href="https://explore.skillbuilder.aws" target="_blank" class="bg-orange-500 hover:bg-orange-600 text-white text-center font-bold py-2 px-4 rounded transition">🚀 Curs Esențial AWS</a>
+                    <a href="https://aws.amazon.com" target="_blank" class="border border-orange-500 text-orange-500 text-center font-bold py-2 px-4 rounded hover:bg-orange-500 hover:text-white transition">🛠️ Laboratoare Practice</a>
+                </div>
+            </section>
 
-        </section>
+            <!-- AI Section -->
+            <section class="bg-slate-800 p-6 rounded-xl border-l-4 border-blue-500 shadow-lg flex flex-col justify-between">
+                <div>
+                    <h2 class="text-2xl font-bold mb-4 text-blue-400">🤖 Calea AI</h2>
+                    <ul class="space-y-3 text-slate-300">
+                        <li class="flex items-center">✅ Prompt Engineering</li>
+                        <li class="flex items-center">⏳ Python pentru Machine Learning</li>
+                        <li class="flex items-center">⏳ AWS Bedrock (Generative AI)</li>
+                        <li class="flex items-center">⏳ Integrare API OpenAI</li>
+                    </ul>
+                </div>
+                <div class="mt-6 flex flex-col space-y-3">
+                    <a href="https://www.elementsofai.com" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded transition">🧠 Elements of AI (RO)</a>
+                    <a href="https://developers.google.com" target="_blank" class="border border-blue-500 text-blue-500 text-center font-bold py-2 px-4 rounded hover:bg-blue-600 hover:text-white transition">📊 Google ML Course</a>
+                </div>
+            </section>
+        </div>
 
-        <!-- AI Section -->
-        <section class="bg-slate-800 p-6 rounded-xl border-l-4 border-blue-500 shadow-lg">
-            <h2 class="text-2xl font-bold mb-4 text-blue-400">🤖 Calea AI</h2>
-            <ul class="space-y-3 text-slate-300">
-                <li class="flex items-center">✅ Prompt Engineering</li>
-                <li class="flex items-center">⏳ Python pentru Machine Learning</li>
-                <li class="flex items-center">⏳ AWS Bedrock (Generative AI)</li>
-                <li class="flex items-center">⏳ Integrare API OpenAI</li>
-            </ul>
-            <button class="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition">
-                Explorați AI
-            </button>
+        <!-- Portofoliu & Contact Section -->
+        <section class="mt-12 bg-slate-800 p-8 rounded-xl border-t-4 border-green-500 shadow-lg text-center">
+            <h2 class="text-2xl font-bold mb-4 text-green-400">💼 Portofoliu & Carieră</h2>
+            <p class="text-slate-300 mb-6">Sunt în căutarea unor noi oportunități în domeniul Cloud & AI. Iată unde mă poți găsi:</p>
+            <div class="flex justify-center gap-6">
+                <a href="https://github.com" target="_blank" class="flex items-center gap-2 text-white hover:text-green-400 transition">
+                    <span class="text-xl">📁</span> GitHub Profile
+                </a>
+                <a href="#" class="flex items-center gap-2 text-white hover:text-green-400 transition">
+                    <span class="text-xl">🔗</span> LinkedIn (www.linkedin.com/in/florin-stănilă-647437297
+
+)
+                </a>
+                <a href="mailto:contact@exemplu.com" class="flex items-center gap-2 text-white hover:text-green-400 transition">
+                    <span class="text-xl">📧</span> Contact Email
+                </a>
+            </div>
         </section>
 
     </main>
 
-    <footer class="text-center mt-20 p-6 text-slate-500 border-t border-slate-800">
-        &copy; 2024 Creat de Florin Stănilă - Viitor AWS Solutions Architect
+    <footer class="text-center mt-20 p-6 text-slate-500 border-t border-slate-800 bg-slate-950">
+        &copy; 2026 Creat de Florin Stănilă - Viitor AWS Solutions Architect | Găzduit pe <a href="https://pages.github.com" class="underline">GitHub Pages</a>
     </footer>
 
 </body>
+</html>
