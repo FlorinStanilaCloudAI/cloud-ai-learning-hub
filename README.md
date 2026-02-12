@@ -13,9 +13,6 @@ Sunt un explorator al tehnologiilor Cloud, pasionat de modul în care Inteligen�
 - **AI/ML:** Prompt Engineering, LLMs Integration
 - **Web:** HTML5, Tailwind CSS
 - **Tools:** VS Code, Git, GitHub Actions
-### 📊 Statisticile mele de programator
-![Limbajele cele mai folosite](https://github-readme-stats.vercel.app)
-![Statisticile mele GitHub](https://github-readme-stats.vercel.app)
 
 ---
 
